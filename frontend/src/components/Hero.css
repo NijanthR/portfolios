@@ -1,0 +1,95 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Left align */
+    padding: 0;
+    max-width: 1000px;
+    /* Constrain width like reference */
+    margin: 0 auto;
+}
+
+.hero-content {
+    text-align: left;
+    max-width: 100%;
+}
+
+.greeting {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    /* 16px usually */
+    color: var(--accent-primary);
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.name {
+    font-size: clamp(40px, 8vw, 80px);
+    /* Responsive big text */
+    font-weight: 600;
+    color: var(--text-main);
+    line-height: 1.1;
+    margin: 0;
+    background: none;
+    -webkit-text-fill-color: initial;
+    -webkit-background-clip: initial;
+}
+
+.role {
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 600;
+    color: var(--text-muted);
+    line-height: 0.9;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bio {
+    margin-top: 20px;
+    max-width: 540px;
+    font-size: 1.1rem;
+    color: var(--text-muted);
+}
+
+.cta-group {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.btn {
+    padding: 1.25rem 1.75rem;
+    border-radius: 4px;
+    /* Slightly rounded, not full pill */
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.btn.primary {
+    background-color: transparent;
+    color: var(--accent-primary);
+    border: 1px solid var(--accent-primary);
+}
+
+.btn.primary:hover {
+    background-color: var(--accent-glow);
+    transform: none;
+    box-shadow: none;
+}
+
+.btn.secondary {
+    display: none;
+    /* Reference usually has one main CTA */
+}
+
+/* Remove or subtlize the orb */
+.hero-visual {
+    display: none;
+}
