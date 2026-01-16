@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ExternalLink, Github } from 'lucide-react';
+import Certificates from './Certificates';
 import './Projects.css';
 
 const Projects = () => {
@@ -47,7 +48,7 @@ const Projects = () => {
             <h2 className="numbered-heading">Some Things I've Built</h2>
 
             {loading ? (
-                <p>Loading projects...</p>
+                <p className="projects-loading">Loading projects...</p>
             ) : (
                 <div className="projects-grid">
                     {projects.map((project) => (
@@ -86,6 +87,8 @@ const Projects = () => {
                     ))}
                 </div>
             )}
+
+            <Certificates />
         </section>
     );
 };

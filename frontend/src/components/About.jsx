@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Instagram } from 'lucide-react';
+import profileImage from '../assets/profile.png';
 import './About.css';
 
 const About = () => {
@@ -37,8 +38,12 @@ const About = () => {
 
                     <div className="about-image-column">
                         <div className="image-wrapper">
-                            {/* Placeholder for user image - replacing the "orb" idea with a frame */}
-                            <div className="image-placeholder"></div>
+                            <img
+                                src={profileImage}
+                                alt="Profile portrait"
+                                className="profile-image"
+                                loading="lazy"
+                            />
                         </div>
                     </div>
                 </motion.div>

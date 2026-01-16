@@ -1,7 +1,11 @@
 .projects-section {
-    padding: 100px 0;
-    max-width: 1000px;
+    padding: 100px 20px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.projects-loading {
+    color: var(--text-muted);
 }
 
 .projects-grid {
@@ -9,7 +13,7 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 0;
 }
 
 .project-card {
@@ -118,7 +122,12 @@
     color: var(--text-muted);
 }
 
+
 @media (max-width: 768px) {
+    .projects-section {
+        padding: 60px 16px;
+    }
+
     .projects-grid {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }

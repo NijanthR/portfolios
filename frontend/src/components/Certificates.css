@@ -1,0 +1,113 @@
+.certificates-panel {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 40px;
+    box-shadow: 0 15px 35px rgba(2, 12, 27, 0.6);
+}
+
+.certificates-panel--stacked {
+    position: static;
+}
+
+.certificates-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.certificates-header svg {
+    color: var(--accent-primary);
+}
+
+.certificates-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.75rem;
+    color: var(--accent-primary);
+}
+
+.certificates-title {
+    font-size: 1.6rem;
+    color: var(--text-main);
+}
+
+.certificates-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.certificate-card {
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 18px;
+    background: rgba(17, 34, 64, 0.75);
+    transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.25s;
+}
+
+.certificate-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent-primary);
+}
+
+.certificate-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.certificate-issuer {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.certificate-meta-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.certificate-year {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--accent-primary);
+}
+
+.certificate-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.certificate-link:hover {
+    color: var(--accent-primary);
+}
+
+.certificate-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.certificate-skill {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: rgba(100, 255, 218, 0.1);
+    color: var(--accent-primary);
+}
+
+.certificate-id {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
