@@ -26,6 +26,7 @@
     z-index: 2;
 }
 
+
 .featured-certificate .certificate-image {
     grid-column: 6 / -1;
     grid-row: 1;

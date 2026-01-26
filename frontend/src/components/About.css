@@ -9,7 +9,7 @@
     grid-template-columns: 3fr 2fr;
     gap: 50px;
 }
-
+  /* Make it take up screen space */
 .numbered-heading {
     display: flex;
     align-items: center;
