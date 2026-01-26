@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import axios from 'axios';
-import { Send } from 'lucide-react';
+import React from 'react';
 import './Contact.css';
 
 const Contact = () => {

@@ -6,7 +6,6 @@ const slugs = [
   "javascript",
   "typescript",
   "python",
-  "django",
   "react",
   "html5",
   "css3",
@@ -53,7 +52,7 @@ const Skills = () => {
     },
     {
       title: "Web Development",
-      skills: ["React", "Django", "HTML", "CSS"],
+      skills: ["React", "Node.js", "HTML", "CSS"],
     },
     {
       title: "AI & Machine Learning",
@@ -80,7 +79,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="skills-section">
-      <h2 className="numbered-heading">Technical Skills</h2>
+      <h2 className="numbered-heading">02. Technical Skills</h2>
 
       <div className="skills-content-wrapper">
         {/* LEFT */}

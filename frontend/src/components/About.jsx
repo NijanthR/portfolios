@@ -28,7 +28,7 @@ const About = () => {
                             <ul className="skills-list">
                                 <li>JavaScript (ES6+)</li>
                                 <li>React</li>
-                                <li>Django</li>
+                                <li>Node.js</li>
                                 <li>Python</li>
                                 <li>Machine Learning</li>
                                 <li>TensorFlow</li>
