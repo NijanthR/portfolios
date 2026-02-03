@@ -21,6 +21,11 @@ const slugs = [
   "docker",
   "tensorflow",
   "pytorch",
+  "visualstudiocode",
+  "windows",
+  "mongodb",
+  "mysql",
+  "linux",
 ];
 
 const Skills = () => {

@@ -1,14 +1,32 @@
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
 import './Certificates.css';
-
-// TODO: Upload your images to frontend/src/assets/certificates/ folder
-// Then uncomment the imports below and use them in the image property
-// import msAzureImg from '../assets/certificates/microsoft-azure-nlp.png';
-// import awsImg from '../assets/certificates/aws-solutions-architect.png';
-// import gcpImg from '../assets/certificates/google-data-engineer.png';
+import djangoCert from '../assets/certificates/django.png';
+import pythonCert from '../assets/certificates/python.png';
 
 const certificateHighlights = [
+    {
+        id: 'python-cert',
+        title: 'Python Programming Certificate',
+        issuer: 'Python Institute',
+        year: '2025',
+        credentialId: 'PY-2025-001',
+        earnedDate: 'January 2025',
+        description: 'Successfully completed comprehensive Python programming certification, demonstrating proficiency in Python fundamentals, object-oriented programming, data structures, and advanced Python concepts.',
+        link: pythonCert,
+        image: pythonCert
+    },
+    {
+        id: 'django-cert',
+        title: 'Django Web Development Certificate',
+        issuer: 'Django Software Foundation',
+        year: '2025',
+        credentialId: 'DJ-2025-001',
+        earnedDate: 'January 2025',
+        description: 'Certified in building scalable web applications using Django framework. Expertise in MVT architecture, Django ORM, REST APIs, authentication, and deployment of production-ready Django applications.',
+        link: djangoCert,
+        image: djangoCert
+    },
     {
         id: 'ms-nlp',
         title: 'Microsoft Applied Skills: Build a NLP solution with Azure AI Language',
@@ -19,28 +37,6 @@ const certificateHighlights = [
         description: 'Successfully completed the Microsoft Applied Skills certification on building a Natural Language Processing (NLP) solution using Azure AI Language, showcasing skills in analyzing text, extracting insights, and developing intelligent language applications.',
         link: 'https://learn.microsoft.com/api/credentials/share/en-us/8C4C732F13FCD0',
         image: 'https://via.placeholder.com/800x500/64ffda/0a192f?text=Microsoft+Azure+NLP'
-    },
-    {
-        id: 'aws-saa',
-        title: 'AWS Certified Solutions Architect – Associate',
-        issuer: 'Amazon Web Services',
-        year: '2024',
-        credentialId: 'ABC-4321',
-        earnedDate: 'December 10, 2024',
-        description: 'Demonstrated expertise in designing distributed systems and applications on AWS platform. Proficient in implementing scalable, highly available, fault-tolerant systems with cost optimization best practices.',
-        link: 'https://www.credly.com/badges/aws-solutions-architect-associate',
-        image: 'https://via.placeholder.com/800x500/ff9900/232f3e?text=AWS+Solutions+Architect'
-    },
-    {
-        id: 'gcp-pde',
-        title: 'Google Professional Data Engineer',
-        issuer: 'Google Cloud',
-        year: '2024',
-        credentialId: 'GCP-8820',
-        earnedDate: 'August 22, 2024',
-        description: 'Certified in designing, building, and operationalizing data processing systems on Google Cloud Platform. Expertise in data pipelines, BigQuery analytics, and machine learning operations.',
-        link: 'https://www.credential.net/google-data-engineer',
-        image: 'https://via.placeholder.com/800x500/4285f4/ffffff?text=Google+Cloud+Data+Engineer'
     }
 ];
 
