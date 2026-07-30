@@ -2,41 +2,38 @@ import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import './Projects.css';
 import profileImg from '../assets/profile.png';
-
-// TODO: Upload your images to frontend/src/assets/projects/ folder
-// Then uncomment the imports below and use them in the image property
-// import aiDetectorImg from '../assets/projects/ai-video-detector.png';
-// import ecommerceImg from '../assets/projects/ecommerce-platform.png';
-// import taskManagerImg from '../assets/projects/task-manager.png';
+import brainscanImg from '../assets/projects/brainscan.png';
+import datainsightImg from '../assets/projects/datainsight.png';
+import teachingAssistantImg from '../assets/projects/teaching_assistant.png';
 
 const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: "AI Generated Video Detector",
-            description: "AI Generated Video Detector allows you to detect a AI generated videos and prevets you from scammers and safe gaurds you also allows you to report wrong predictions and improves based on that.",
-            technologies: ["Python", "MTCNN", "EffecientNet V2", "Gradio"],
-            github: "https://github.com/yourusername/ai-video-detector",
-            demo: "https://ai-video-detector.vercel.app",
-            image: profileImg
+            title: "BrainScanAI",
+            description: "Deep Learning-Based Brain Tumor Detection using MRI Images. Built a complete pipeline featuring a CNN for classification, image preprocessing, a modern prediction dashboard, and integrated an LLM (GPT-4.1 Nano) for medical recommendations.",
+            technologies: ["Python", "TensorFlow", "Keras", "CNN", "GPT-4.1 Nano"],
+            github: "https://github.com/yourusername/Kaneki",
+            demo: "#",
+            image: brainscanImg
         },
         {
             id: 2,
-            title: "E-Commerce Platform",
-            description: "A full-featured online store with curated product flows and analytics. Built with modern web technologies to provide seamless shopping experience.",
-            technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-            github: "https://github.com/yourusername/ecommerce-platform",
-            demo: "https://ecommerce-platform.vercel.app",
-            image: "https://via.placeholder.com/800x500/161b22/58a6ff?text=E-Commerce+Platform"
+            title: "AI Teaching Assistant",
+            description: "AI-powered teaching assistant using GPT-4.1 Nano with RAG for context-aware Q&A. Integrated Whisper for voice interaction, automated MCQ generation for self-assessment, and a coding evaluation module.",
+            technologies: ["Python", "GPT-4.1 Nano", "RAG", "Whisper", "Vector Database"],
+            github: "https://github.com/yourusername/Teaching_Assistant",
+            demo: "#",
+            image: teachingAssistantImg
         },
         {
             id: 3,
-            title: "Task Management App",
-            description: "Real-time collaboration tool for teams to organize projects, assign tasks, and track progress with intuitive interface and live updates.",
-            technologies: ["Vue.js", "Firebase", "Tailwind", "WebSocket"],
-            github: "https://github.com/yourusername/task-manager",
-            demo: "https://task-manager-app.netlify.app",
-            image: ""
+            title: "DataInsight AI",
+            description: "Multi-Agent AI System for automated dataset quality analysis and bias detection. Built with CrewAI to run specialized agents in parallel, providing interactive dataset health scores and AI-driven improvement recommendations.",
+            technologies: ["Python", "CrewAI", "Llama-3.1", "React"],
+            github: "https://github.com/yourusername/Chopper",
+            demo: "#",
+            image: datainsightImg
         }
     ];
 

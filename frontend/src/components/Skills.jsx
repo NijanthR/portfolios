@@ -3,29 +3,23 @@ import "./Skills.css";
 import { Cloud, fetchSimpleIcons, renderSimpleIcon } from "react-icon-cloud";
 
 const slugs = [
-  "javascript",
-  "typescript",
   "python",
+  "mysql",
+  "java",
+  "django",
   "react",
-  "html5",
-  "css3",
-  "nodedotjs",
-  "express",
-  "postgresql",
-  "firebase",
+  "amazonaws",
   "git",
   "github",
-  "figma",
-  "tailwindcss",
-  "amazonaws",
-  "docker",
   "tensorflow",
   "pytorch",
-  "visualstudiocode",
-  "windows",
-  "mongodb",
-  "mysql",
+  "keras",
+  "huggingface",
+  "scikitlearn",
+  "pandas",
+  "jupyter",
   "linux",
+  "visualstudiocode"
 ];
 
 const Skills = () => {
@@ -52,23 +46,21 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: "Programming Languages",
-      skills: ["Python", "Java", "C", "JavaScript"],
+      title: "AI/ML",
+      skills: ["Machine Learning", "Deep Learning", "NLP", "Transformers", "Generative AI", "Chroma DB", "AI Agents", "LLMs"],
     },
     {
-      title: "Web Development",
-      skills: ["React", "Node.js", "HTML", "CSS"],
+      title: "Languages",
+      skills: ["Python", "MySQL", "Java"],
     },
     {
-      title: "AI & Machine Learning",
-      skills: [
-        "Machine Learning",
-        "Deep Learning",
-        "Prompt Engineering",
-        "TensorFlow",
-        "PyTorch",
-      ],
+      title: "Frameworks",
+      skills: ["Django", "React", "LangChain", "CrewAI"],
     },
+    {
+      title: "Cloud & Tools",
+      skills: ["AWS", "Git"],
+    }
   ];
 
   const cloudOptions = {
