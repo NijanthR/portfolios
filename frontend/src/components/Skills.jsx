@@ -3,23 +3,76 @@ import "./Skills.css";
 import { Cloud, fetchSimpleIcons, renderSimpleIcon } from "react-icon-cloud";
 
 const slugs = [
+  // AI, Machine Learning & Data Science
   "python",
-  "mysql",
-  "java",
-  "django",
-  "react",
-  "amazonaws",
-  "git",
-  "github",
   "tensorflow",
   "pytorch",
   "keras",
   "huggingface",
   "scikitlearn",
   "pandas",
+  "numpy",
+  "scipy",
+  "opencv",
   "jupyter",
+  "anaconda",
+  "openai",
+  "anthropic",
+  "ollama",
+  "langchain",
+  "pydantic",
+  "spacy",
+  "plotly",
+  "weightsandbiases",
+  "ray",
+  "streamlit",
+  "fastapi",
+  "flask",
+  "kaggle",
+
+  // Languages & Core
+  "javascript",
+  "typescript",
+  "html5",
+  "css3",
+  "java",
+  "cplusplus",
+
+  // Databases & Storage
+  "mysql",
+  "postgresql",
+  "mongodb",
+  "sqlite",
+  "redis",
+  "supabase",
+  "firebase",
+  "prisma",
+
+  // Web Frameworks & Libraries
+  "react",
+  "django",
+  "nodedotjs",
+  "nextdotjs",
+  "tailwindcss",
+  "vite",
+  "graphql",
+
+  // Cloud, DevOps & Tools
+  "amazonaws",
+  "googlecloud",
+  "vercel",
+  "docker",
+  "kubernetes",
+  "terraform",
+  "git",
+  "github",
   "linux",
-  "visualstudiocode"
+  "ubuntu",
+  "visualstudiocode",
+  "postman",
+  "npm",
+  "apachespark",
+  "apachekafka"
 ];
 
 const Skills = () => {
@@ -30,7 +83,7 @@ const Skills = () => {
       const loadedIcons = Object.values(simpleIcons).map((icon) =>
         renderSimpleIcon({
           icon,
-          size: 32,
+          size: 36,
           aProps: {
             onClick: (e) => e.preventDefault(),
             style: {

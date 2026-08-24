@@ -27,8 +27,8 @@ const SocialSidebars = () => {
 
             <div orientation="right" className="side-element right">
                 <div className="email-wrapper">
-                    <a href="mailto:your.email@example.com" className="email-link">
-                        your.email@example.com
+                    <a href="mailto:srinijan2405@gmail.com" className="email-link">
+                        srinijan2405@gmail.com
                     </a>
                 </div>
             </div>
