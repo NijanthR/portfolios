@@ -7,7 +7,7 @@ const SectionReveal = ({ children, delay = 0 }) => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6, delay: delay, ease: "easeInOut" }}
+            transition={{ duration: 0.5, delay: delay, ease: "easeInOut" }}
         >
             {children}
         </motion.div>
