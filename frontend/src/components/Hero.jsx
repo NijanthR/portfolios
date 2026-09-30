@@ -29,7 +29,7 @@ const Hero = () => {
                     transition={{ delay: 0.6 }}
                     className="role"
                 >
-                    I build things for the web.
+                    I build AI-powered applications & full-stack solutions.
                 </motion.h2>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,7 @@ const Hero = () => {
                     transition={{ delay: 0.8 }}
                     className="bio"
                 >
-                    I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.
+                    Final year B.Tech student in Artificial Intelligence and Machine Learning with hands-on experience building AI-powered applications, RAG systems, and full-stack ML solutions. Skilled in Python, Django, and modern AI technologies including Deep Learning and LLM-based systems.
                 </motion.p>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

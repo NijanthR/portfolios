@@ -8,12 +8,12 @@ const SocialSidebars = () => {
             <div orientation="left" className="side-element left">
                 <ul className="social-list">
                     <li>
-                        <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
+                        <a href="https://github.com/NijanthR" target="_blank" rel="noreferrer" aria-label="GitHub">
                             <Github size={20} />
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                        <a href="https://linkedin.com/in/nijanth-rajendiren/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                             <Linkedin size={20} />
                         </a>
                     </li>

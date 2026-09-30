@@ -18,7 +18,8 @@
     font-family: var(--font-mono);
     font-weight: 400;
 }
-  /* Make it take up screen space */
+
+/* Make it take up screen space */
 .numbered-heading.center::before {
     margin-right: 10px;
     font-size: 14px;
