@@ -84,6 +84,10 @@ const Skills = () => {
         renderSimpleIcon({
           icon,
           size: 36,
+          // bgHex must match your dark background so the library can
+          // calculate contrast and pick the correct brand colour
+          bgHex: "#050d1a",
+          minContrastRatio: 1.5,
           aProps: {
             onClick: (e) => e.preventDefault(),
             style: {
@@ -153,7 +157,10 @@ const Skills = () => {
           {icons ? (
             <Cloud options={cloudOptions}>{icons}</Cloud>
           ) : (
-            <p>Loading Icons...</p>
+            <div className="skills-loading">
+              <div className="skills-spinner"></div>
+              <p>Loading icons…</p>
+            </div>
           )}
         </div>
       </div>
